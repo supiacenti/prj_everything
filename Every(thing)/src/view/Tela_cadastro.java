@@ -208,6 +208,7 @@ public class Tela_cadastro extends javax.swing.JFrame {
         user.enqueue(sn);
         
         Usuario a = new Usuario(nu, sn, nome, idade, dn, em);
+        a.validar();
     }//GEN-LAST:event_botaocadastroActionPerformed
 
     private void tfsnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfsnActionPerformed
